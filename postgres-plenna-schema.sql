@@ -4,8 +4,9 @@
 --
 -- TABLE: doctor
 --  
+
 create table doctor (
-  id_doctor numeric(7) constraint pk_doctor primary key,
+  id_doctor integer (7) constraint pk_doctor primary key,
   nombre varchar(50) NOT NULL,
   apellidos varchar(50) NOT NULL,
   especialidad varchar (50) not null,
@@ -14,7 +15,7 @@ create table doctor (
   sexo varchar(50) NOT NULL
 );
 --
-CREATE SEQUENCE doctor_id_doctor_seq START 1 INCREMENT 1 ;
+CREATE SEQUENCE doctor_id_doctor_seq START 1000000 INCREMENT 1 ;
 ALTER TABLE doctor ALTER COLUMN id_doctor SET DEFAULT nextval('doctor_id_doctor_seq');
 --
 
@@ -23,19 +24,19 @@ ALTER TABLE doctor ALTER COLUMN id_doctor SET DEFAULT nextval('doctor_id_doctor_
 -- TABLE: paciente
 -- 
 create TABLE paciente (
-  id_paciente numeric(7,0) constraint pk_paciente primary key,
+  id_paciente integer(7) constraint pk_paciente primary key,
   nombre varchar(50) NOT NULL,
   apellidos varchar(50) NOT NULL,
-  edad numeric(3,0) NOT null,
-  fecha_nacimiento date NOT NULL,
+  edad integer(3) NOT null,
   genero varchar(50) NOT null,
   sexo varchar(50) NOT null,
+  doctora_visita varchar (100) not null,
   tipo_sangre char(2) NOT NULL,
   peso numeric(5,2) not null,
   estatura numeric(5,2) not null,
   ocupacion varchar(50) NOT NULL
 );
-create SEQUENCE paciente_id_paciente_seq START 1 INCREMENT 1 ;
+create SEQUENCE paciente_id_paciente_seq START 2000000 INCREMENT 1 ;
 ALTER TABLE paciente ALTER COLUMN id_paciente SET DEFAULT nextval('paciente_id_paciente_seq');
 --
 
@@ -47,7 +48,7 @@ CREATE table asistente (
   nombre varchar(50) NOT NULL,
   apellidos varchar(50) NOT NULL
 );
-CREATE sequence asistente_id_asistente_seq START 1 INCREMENT 1 ;
+CREATE sequence asistente_id_asistente_seq START 3000000 INCREMENT 1 ;
 ALTER table asistente ALTER COLUMN id_asistente SET DEFAULT nextval('asistente_id_asistente_seq');
 --
 
@@ -220,3 +221,11 @@ create TABLE seguimiento (
 );
 CREATE SEQUENCE seguimiento_id_seguimiento_seq START 1 INCREMENT 1 ;
 ALTER TABLE seguimiento ALTER COLUMN id_seguimiento SET DEFAULT nextval('seguimiento_id_seguimiento_seq');
+--
+
+
+
+
+
+
+
