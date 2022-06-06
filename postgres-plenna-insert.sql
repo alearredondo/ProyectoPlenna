@@ -1,189 +1,351 @@
 --PLENNA SCRIPT inserts
 --BASE DE DATOS SCRIPT 2 
 
---
---TABLA DOCTOR 
---
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Carolina', 'Zambrano', 'Medico General', 31, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Karla', 'Sanchez', 'Nutriologa', 40, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Hilda', 'Torres', 'Sexologa', 31, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Antonia', 'Rodriguez', 'Medico General', 34, 'Transgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Maricela', 'Lopez', 'Psicologa', 32, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Sonia', 'Cedeño', 'Medico General', 38, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Anna', 'Zabala', 'Nutriologa', 36, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Berenice', 'Jimenez', 'Ginecologa', 48, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Yadira', 'Garcia', 'Nutriologa', 37, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Mayra', 'Romero', 'Ginecologa', 42, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Judith', 'Castillo', 'Psicologa', 52, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Marisol', 'Gonzalez', 'Ginecologa', 32, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Rosario', 'Vera', 'Medico general', 51, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Reyna', 'Flores', 'Medico general', 42, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Aurora', 'Espinoza', 'Ginecologa', 39, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Olivia', 'Castro', 'Psicologa', 32, 'No Binario', '');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Raquel', 'Morales', 'Medico general', 33, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Irene', 'Perez', 'Sexologa', 32, 'Transgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Elvira', 'Bermudez', 'Psicologa', 30, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Catalina', 'Leon', 'Medico general', 52, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Lidia', 'Jaramillo', 'Ginecologa', 42, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Victoria', 'Mendoza', 'Sexologa', 27, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Dulce', 'Villavicencio', 'Medico general', 40, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Isela', 'Gonzalez', 'Psicologa', 38, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Sara', 'Rodriguez', 'Medico general', 37, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Marcela', 'Perez', 'Nutriologa', 44, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Elvia', 'Hernandez', 'Ginecologa', 36, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Esperanza', 'Garcia', 'Nutriologa', 58, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo)  values ('Cecilia', 'Martinez', 'Ginecologa', 36, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Dora', 'Sanchez', 'Psicologa', 32, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Eva', 'Lopez', 'Ginecologa', 58, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Julia', 'Diaz', 'Medico general', 55, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Elsa', 'Ferreira', 'Medico general', 45, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Esmeralda', 'Ramirez', 'Ginecologa', 55, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Brenda', 'Castillo', 'Psicologa', 32, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Socorro', 'Gomez', 'Medico general', 40, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Georgina', 'Romero', 'Sexologa', 35, 'Transgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Mercedes', 'Oliveira', 'Psicologa', 30, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Noemi', 'Mendoza', 'Nutriologa', 38, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Celia', 'Rossi', 'Sexologa', 53, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Daniela', 'Silva', 'Medico general', 41, 'Transgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Ivanna', 'Gutierrez', 'Psicologa', 34, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Minerva', 'Rodriguez', 'Medico general', 43, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Nora', 'Gonzalez', 'Nutriologa', 55, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Griselda', 'Martinez', 'Ginecologa', 46, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Elia', 'Fernandez', 'Nutriologa', 37, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Rosalba', 'Perez', 'Ginecologa', 43, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Imelda', 'Garcia', 'Psicologa', 40, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Ivonne', 'Silva', 'Ginecologa', 39, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Marina', 'Lopez', 'Medico general', 44, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Alejandra', 'Pereira', 'Medico general', 50, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Lizbeth', 'Sosa', 'Ginecologa', 42, 'Transgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Mireya', 'Galvan', 'Psicologa', 60, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Soledad', 'Garcia', 'Medico general', 52, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Clara', 'Zavala', 'Sexologa', 49, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Lourdes', 'Gasamans', 'Psicologa', 46, 'Transgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Ines', 'Rivas', 'Medico general', 62, 'Cisgenero', 'Femenino');
-insert into doctor (nombre, apellidos, especialidad, edad, genero, sexo) values ('Aida', 'Beltran', 'Psicologa', 57, 'Transgenero', 'Femenino');
---
---
---TABLA PACIENTE
---
---
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values 
-('Maria', 'Gonzalez', 18, 'Cisgenero', 'Femenino', 'Nutriologa',  'B+', 45.02, 150.14, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Guadalupe', 'Muñoz', 54, 'Cisgenero', 'Femenino', 'Sexologa', 'O-', 66.07, 167.34, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Rosa', 'Rojas', 15, 'Cisgenero', 'Femenino', 'Psicologa y Nutriologa', 'O+', 60.70, 155.15, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Martha', 'Diaz', 36, 'Cisgenero', 'Femenino', 'Nutriologa', 'A+', 50.33, 170.03, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Ana', 'Perez', 29, 'Transgenero', 'Femenino','Medico general', 'O+', 61.10, 165.14, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values 
-('Patricia', 'Soto', 26, 'Cisgenero', 'Femenino','Ginecologa, Psicologa', 'O+', 77.02, 149.70, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Leticia', 'Contreras', 23, 'Cisgenero', 'Femenino', 'Sexologa, Psicologa', 'B-', 54.80, 154.60, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Elena', 'Silva', 45, 'Cisgenero', 'Femenino', 'Psicologa', 'A+', 80.90, 163.14, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values 
-('Elizabeth', 'Zepulveda', 19, 'Cisgenero', 'Femenino', 'Nutriologa', 'B+', 50.80, 153.00, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values 
-('Isabel', 'Morales', 60, 'Cisgenero', 'Femenino', 'Ginecologa', 'O+', 88.80, 175.80, 'Retirada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Alicia', 'Rodriguez', 40, 'Cisgenero', 'Femenino', 'Sexologa', 'AB+', 67.80, 176.89, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values 
-('Margarita', 'Lopez', 38, 'Cisgenero', 'Femenino', 'Psicologa, Sexologa', 'O+', 76.60, 182.89, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Luz', 'Fuentes', 26, 'Cisgenero', 'Femenino', 'Nutriologa, Psicologa, Medico general','O+', 80.80, 166.10, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values 
-('Angelica', 'Hernandez', 29, 'Cisgenero', 'Femenino', 'Medico general', 'AB+', 51.10, 157.00, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Claudia', 'Torres', 37, 'Transgenero', 'Femenino', 'Ginecologa','O-', 67.80, 165.99, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values 
-('Silvia', 'Araya', 19, 'No Binario', ' ', 'Sexologa' ,'O+', 52.80, 147.90, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Norma', 'Flores', 41, 'Cisgenero', 'Femenino', 'Psicologa, Nutriologa' ,'B+', 69.70, 164.90, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Juana', 'Espinoza', 27, 'Cisgenero', 'Femenino', 'Nutriologa','O+', 90.83, 165.60, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Gabriela', 'Valenzuela', 21, 'Cisgenero', 'Femenino', 'Medico general' ,'O+', 77.10, 154.89, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Adriana', 'Castillo', 38, 'Cisgenero', 'Femenino', 'Ginecologa' ,'A+', 57.90, 164.19, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values 
-('Veronica', 'Tapia', 18, 'Transgenero', 'Femenino', 'Sexologa, Nutriologa' ,'B+', 53.80, 153.89, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Teresa', 'Reyes', 25, 'Cisgenero', 'Femenino', 'Psicologa' ,'AB+', 65.80, 168.00, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Alejandra', 'Gutierrez', 42, 'Cisgenero', 'Femenino', 'Nutriologa' ,'B+', 55.00, 161.10, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Alma', 'Castro', 37, 'Cisgenero', 'Femenino', 'Medico general' ,'AB-', 65.78, 154.89, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Beatriz', 'Pizarro', 22, 'Cisgenero', 'Femenino', 'Ginecologa, Sexologa' ,'O+', 62.10, 164.00, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Martha', 'Alvarez', 18, 'Transgenero', 'Femenino', 'Sexologa' ,'O+', 61.10, 161.99, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Yolanda', 'Vazquez', 25, 'Cisgenero', 'Femenino', 'Psicologa' ,'O-', 87.10, 160.09, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Blanca', 'Sanchez', 32, 'Cisgenero', 'Femenino', 'Nutriologa' ,'A+', 62.00, 151.80, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Sandra', 'Fernandez', 24, 'Cisgenero', 'Femenino', 'Medico general, Psicologa' ,'O+', 73.80, 170.89, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Araceli', 'Ramirez', 27, 'Cisgenero', 'Femenino', 'Ginecologa, Sexologa' ,'O-', 55.80, 163.20, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Irma', 'Carrasco', 35, 'Cisgenero', 'Femenino', 'Sexologa' ,'O+', 56.20, 161.00, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Gloria', 'Gomez', 56, 'Cisgenero', 'Femenino', 'Sexologa' ,'O+', 60.90, 156.00, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Carmen', 'Cortes', 60, 'Cisgenero', 'Femenino','Nutriologa, Sexologa, Psicologa, Medico general' ,'O+', 77.10, 170.09, 'Retirada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Luisa', 'Herrera', 20, 'Transgenero', 'Femenino', 'AB-', 52.10, 163.99, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Rocio', 'Nuñez', 31, 'Cisgenero', 'Femenino','Ginecologa, Sexologa' ,'O+', 66.80, 165.00, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Concepcion', 'Jara', 32, 'Cisgenero', 'Femenino','Sexologa' ,'O+', 61.00, 160.09, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Cristina', 'Vergara', 29, 'Cisgenero', 'Femenino', 'Psicologa, Nutriologa' ,'O+', 54.90, 162.79, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Edith', 'Rivera', 28, 'Transgenero', 'Femenino', 'Nutriologa' ,'B+', 59.00, 160.79, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Esther', 'Figueroa', 30, 'Cisgenero', 'Femenino', 'Medico general' ,'O+', 64.10, 158.99, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Lilia', 'Riquelme', 34, 'Cisgenero', 'Femenino', 'Ginecologa' ,'A+', 50.90, 167.00, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Lorena', 'Garcia', 20, 'Cisgenero', 'Femenino', 'Sexologa' ,'AB+', 68.10, 177.00, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Magdalena', 'Miranda', 41, 'Cisgenero', 'Femenino', 'Psicologa, Medico general' ,'O+', 69.00, 168.10, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Cecilia', 'Bravo', 30, 'Cisgenero', 'Femenino', 'Nutriologa' ,'B+', 57.00, 173.09, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Josefina', 'Vera', 21, 'Cisgenero', 'Femenino', 'Medico general' ,'A+', 75.00, 167.54, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Dolores', 'Molina', 26, 'Cisgenero', 'Femenino', 'Ginecologa' ,'A+', 62.60, 156.45, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Karina', 'Vega', 28, 'Cisgenero', 'Femenino', 'Sexologa' ,'O+', 58.10, 167.90, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Lucia', 'Campos', 19, 'Cisgenero', 'Femenino', 'Psicologa, Medico general' ,'A+', 71.00, 165.90, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Estela', 'Sandoval', 20, 'Cisgenero', 'Femenino', 'Nutriologa' ,'O+', 88.00, 150.79, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Susana', 'Orellana', 34, 'Cisgenero', 'Femenino', 'Medico general, Psicologa' ,'B-', 58.90, 167.00, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Maribel', 'Cardenas', 30, 'Cisgenero', 'Femenino', 'Ginecologa' ,'O-', 48.00, 151.99, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Anna', 'Olivares', 24, 'Cisgenero', 'Femenino', 'Nutriologa, Sexologa, Psicologa, Medico general' ,'O+', 53.67, 164.80, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Lourdes', 'Alarcon', 21, 'Cisgenero', 'Femenino', 'Psicologa, Nutriologa' ,'O+', 61.00, 163.21, 'Estudiante');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Erika', 'Gallardo', 23, 'Cisgenero', 'Femenino', 'Nutriologa' ,'B+', 52.00, 176.00, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Monica', 'Ortiz', 26, 'Cisgenero', 'Femenino', 'Medico general' ,'AB-', 60.10, 168.99, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Laura', 'Garrido', 45, 'Cisgenero', 'Femenino', 'Ginecologa' ,'O+', 57.00, 159.65, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Diana', 'Salazar', 36, 'Transgenero', 'Femenino', 'Psicologa, Sexologa' ,'B+', 64.89, 175.90, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Eugenia', 'Guzman', 30, 'No binario', ' ', 'Psicologa' ,'O+', 64.89, 156.89, 'Empleada');
-insert into paciente (nombre, apellidos, edad, genero, sexo, doctora_visita, tipo_sangre, peso, estatura, ocupacion) values
-('Cecilia', 'Saavedra', 22, 'Cisgenero', 'Femenino', 'Psicologa, Nutriologa' ,'O+', 60.90, 154.00, 'Estudiante');
 
+--TABLA ASISTENTE
+insert into asistente (nombre, apellidos) values ('Daniela','Navarro Hernandez');
+insert into asistente (nombre, apellidos) values ('Carmen', 'Quintana Galvan');
+insert into asistente (nombre, apellidos) values ('Nicole', 'Reyna Ruiz');
+insert into asistente (nombre, apellidos) values ('Paulina','Gaytan Rodriguez');
+insert into asistente (nombre, apellidos) values ('Sofía', 'Flores Mendoza');
+insert into asistente (nombre, apellidos) values ('Valentina', 'Del Campo Leal');
+insert into asistente (nombre, apellidos) values ('Ana', 'Rodriguez Fernandez');
+insert into asistente (nombre, apellidos) values ('Maria Fernanda', 'Paz Riquelme');
+insert into asistente (nombre, apellidos) values ('Aranza', 'Ruiz Rivas');
+insert into asistente (nombre, apellidos) values ('Alexa', 'Sanchez Jimenez');
+--
+--
+-- TABLA DOCTOR 
+--
+--
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Carolina', 'Zambrano Lara', 31, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Karla', 'Sanchez Espinoza', 40, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Hilda', 'Torres Alvarado', 31, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Antonia', 'Rodriguez Soto', 34, 'mujer transgenero', 'Femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Maricela', 'Lopez Cortes', 32, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Sonia', 'Cedeño Bautista', 38, 'mujer', 'Femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Anna', 'Zabala Estrada', 36, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Berenice', 'Jimenez Guerrero', 48, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Yadira', 'Garcia Santiago', 37, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Mayra', 'Romero Ortega', 42, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Judith', 'Castillo Luna', 52, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Marisol', 'Gonzalez Salazar', 32, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Rosario', 'Vera Contreras', 51, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Reyna', 'Flores De la Cruz', 42, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Aurora', 'Espinoza Rojas', 39, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Olivia', 'Castro Velazquez', 32, 'no binario', '');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Raquel', 'Morales Guzman', 33, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Irene', 'Perez Vargas', 32, 'mujer transgenero', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Elvira', 'Bermudez Castro', 30, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Catalina', 'Leon Medina', 52, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Lidia', 'Jaramillo Herrera', 42, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Victoria', 'Mendoza Dominguez', 27, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Dulce', 'Villavicencio Ramos', 40, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Isela', 'Gonzalez Juarez', 38, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Sara', 'Rodriguez Rivera', 37, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Marcela', 'Perez Chavez', 44, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Elvia', 'Hernandez Mendez', 36, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Esperanza', 'Garcia Alvarez', 58, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Cecilia', 'Martinez Romero', 36, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Dora', 'Sanchez Castillo', 32, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Eva', 'Lopez Moreno', 58, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Julia', 'Diaz Ortiz', 55, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Elsa', 'Ferreira Aguilar', 45, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Esmeralda', 'Ramirez Ruiz', 55, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Brenda', 'Castillo Diaz', 32, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Socorro', 'Gomez Torres', 40, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Georgina', 'Romero Reyes', 35, 'mujer transgenero', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Mercedes', 'Oliveira Vazquez', 30, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Noemi', 'Mendoza Osorio', 38, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Celia', 'Rossi Morales', 53, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Daniela', 'Silva Gomez', 41, 'hombre transgenero', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Ivanna', 'Gutierrez Ramirez', 34, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Minerva', 'Rodriguez Cruz', 43, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Nora', 'Gonzalez Garcia', 55, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Griselda', 'Martinez Sanchez', 46, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Elia', 'Fernandez Martinez', 37, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Rosalba', 'Perez Hernandez', 43, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Imelda Maria', 'Garcia Del Campo', 40, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Ivonne', 'Silva Perez', 39, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Marina', 'Lopez Ruiz', 44, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Alejandra', 'Pereira Leyva', 50, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Lizbeth', 'Sosa Ley', 42, 'hombre transgenero', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Mireya', 'Galvan Beltran', 60, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Soledad', 'Garcia Garcia', 52, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Clara', 'Zavala Besil', 49, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Lourdes', 'Gasamans Carrera', 46, 'mujer transgenero', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Ines', 'Rivas Lopez', 62, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Aida', 'Beltran Fuentes', 57, 'mujer transgenero', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Lucero', 'Hernandez Leal', 32, 'hombre transgenero', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Ximena', 'Lopez Casas', 54, 'mujer', 'femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Anahi', 'Gutierrez Jimemez', 42, 'mujer transgenero','femenino');
+--
+--
+-- TABLA ESPECIALIDAD
+--
+insert into especialidad (nombre) values ('Psicologa');
+insert into especialidad (nombre) values ('Ginecologa');
+insert into especialidad (nombre) values ('Sexologa');
+insert into especialidad (nombre) values ('Medico general');
+insert into especialidad (nombre) values ('Suenio');
+--
+--
+-- TABLA DOCTOR_ESPECIALIDAD
+--
+insert into doctor_especialidad values (1000000, 1);
+
+--
+-- TABLA PACIENTE
+-- 
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values 
+('Maria', 'Gonzalez Rivera', 18, 'mujer', 'femenino', 'B+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Guadalupe', 'Muñoz Fernandez', 54, 'mujer', 'femenino','O-', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Rosa', 'Rojas Rivas', 15, 'mujer', 'femenino', 'O+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Martha', 'Diaz Garcia', 36, 'mujer', 'femenino', 'A+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Ana', 'Perez Rodriguez', 29, 'mujer transgenero', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Patricia', 'Soto Juarez', 26, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Leticia', 'Contreras Riquelme', 23, 'mujer', 'femenino', 'B-', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Maria Elena', 'Silva Mendez', 45, 'mujer', 'femenino', 'A+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Elizabeth', 'Zepulveda Gutierrez', 19, 'mujer', 'femenino', 'B+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Isabel', 'Morales Jimenez', 60, 'mujer', 'femenino', 'O+', 'Retirada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Alicia', 'Rodriguez Velazquez', 40, 'mujer', 'femenino', 'AB+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values 
+('Margarita', 'Lopez Mendoza', 38, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Luz', 'Fuentes Del Campo', 26, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Angelica', 'Hernandez Castillo', 29, 'mujer', 'femenino', 'AB+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Claudia', 'Torres Jimenez', 37, 'mujer transgenero', 'femenino' ,'O-', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values 
+('Silvia', 'Araya Dominguez', 19, 'no binario', ' ', 'O+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Norma', 'Flores Zavala', 41, 'mujer', 'femenino', 'B+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Juana', 'Espinoza Reyes', 27, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Gabriela', 'Valenzuela Rivas', 21, 'mujer', 'femenino','O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Adriana', 'Castillo Galvan', 38, 'mujer', 'femenino', 'A+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Veronica', 'Tapia Flores', 18, 'mujer', 'femenino', 'B+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Teresa', 'Reyes Alvarez', 25, 'mujer', 'femenino', 'AB+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Alejandra', 'Gutierrez Perez', 42, 'mujer', 'femenino', 'B+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Alma', 'Castro Garcia', 37, 'mujer', 'femenino','AB-', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Beatriz', 'Pizarro Gomez', 22, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Martha', 'Alvarez Luna', 18, 'mujer transgenero', 'femenino', 'O+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Yolanda', 'Vazquez Casarez', 25, 'mujer', 'femenino', 'O-', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Blanca', 'Sanchez Casas', 32, 'mujer', 'femenino', 'A+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Sandra', 'Fernandez Sanchez', 24, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Araceli', 'Ramirez Gonzalez', 27, 'mujer', 'femenino', 'O-', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Irma', 'Carrasco Ramirez', 35, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Gloria', 'Gomez Chavez', 56, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Carmen', 'Cortes Hernandez', 60, 'mujer', 'femenino','O+', 'Retirada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Luisa', 'Herrera Mancera', 20, 'hombre transgenero', 'femenino' ,'AB-', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Rocio', 'Nuñez Juarez', 31, 'mujer', 'femenino','O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Carmen Concepcion', 'Jara Gonzalez', 32, 'mujer', 'femenino','O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Cristina', 'Vergara Jara', 29, 'mujer', 'femenino','O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Edith', 'Rivera Muñoz', 28, 'mujer transgenero', 'femenino', 'B+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Esther', 'Figueroa Valerio', 30, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Lilia', 'Riquelme Mustri', 34, 'mujer', 'femenino','A+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Lorena', 'Garcia Balmori', 20, 'mujer', 'femenino', 'AB+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Magdalena', 'Miranda Sandoval', 41, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Cecilia', 'Bravo Torres', 30, 'mujer', 'femenino', 'B+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Josefina', 'Vera Garcia', 21, 'mujer', 'femenino', 'A+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Dolores', 'Molina Gutierrez', 26, 'mujer', 'femenino', 'A+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Karina', 'Vega Ortiz', 28, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Lucia', 'Campos del Castillo', 19, 'mujer', 'femenino', 'A+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Estela', 'Sandoval Garrido', 20, 'mujer', 'femenino', 'O+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Susana', 'Orellana Padilla', 34, 'mujer', 'femenino', 'B-', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Maribel', 'Cardenas Ruiz', 30, 'mujer', 'femenino', 'O-', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Anna', 'Olivares Vega', 24, 'mujer', 'femenino', 'O+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Lourdes', 'Alarcon Osorio', 21, 'mujer', 'femenino', 'O+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Erika Sofia', 'Gallardo Galvan', 23, 'mujer', 'femenino', 'B+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Monica', 'Ortiz Perez', 26, 'mujer', 'femenino', 'AB-', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Laura', 'Garrido Pulido', 45, 'mujer', 'femenino', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Diana', 'Salazar Rodriguez', 36, 'mujer transgenero', 'femenino', 'B+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Eugenia', 'Guzman Balderas', 30, 'no binario', ' ', 'O+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Cecilia', 'Saavedra Iglesias', 22, 'mujer', 'femenino', 'A+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Carmen', 'Beltran Velazquez', 37, 'mujer', 'femenino', 'B+', 'Empleada');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Alexandra', 'Garcia Guzman', 20, 'mujer', 'femenino', 'AB+', 'Estudiante');
+insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
+('Adriana', 'Muñoz Casas', 36, 'mujer', 'femenino', 'O+', 'Empleada');
+--
+--
+--TABLA EXPEDIENTE
+--
+--
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000000,'anemia', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000001,'hipertension', 'true', 'diureticos');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000002,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000003,'sindrome de ovario poliquistico', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000004,'hipotiroidismo', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000005,'anemia', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000006,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000007,'otro', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000008,'otro', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000009,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000010,'diabetes', 'true', 'insulina');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000011,'diabetes', 'true', ' insulina y metformina');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000012,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000013,'anemia', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000014,'otro', 'true', 'daflon 500mg');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000015,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000016,'otro', 'true', 'kombyglize');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000017,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000018,'otro', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000019,'otro', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000020,'anemia', 'true', 'hierro ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000021,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000022,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000023,'hipertension', 'false', 'betabloqueadores');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000024,'otro', 'true', 'thrombocid');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000025,'diabetes', 'true', 'insulina');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000026,'anemia', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000027,'otro', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000028,'ninguna', 'false', 'vitaminas');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000029,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000030,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000031,'otro', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000032,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000033,'hipotiroidismo', 'true', 'levothroid');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000034,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000035,'anemia', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000036,'anemia', 'true', 'verdadero');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000037,'otro', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000038,'hipotiroidismo', 'true', 'synthroid');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000039,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000040,'otra', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000041,'diabetes', 'true', ' insulina');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000042,'anemia', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000043,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000044,'otra', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000045,'hipertension', 'false', 'diureticos');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000046,'otro', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000047,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000048,'anemia', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000049,'otro', 'false', 'quimioterapia');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000050,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000051,'otro', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000052,'anemia', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000053,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000054,'anemia', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000055,'diabetes', 'true', 'insulina y metmorfina');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000056,'otro', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000057,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000058,'ninguna', 'false', ' ');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000059,'diabetes', 'true', ' insulina');
+insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
+(2000060,'anemia', 'false', ' ');
 
 
 
