@@ -75,7 +75,7 @@ create table doctor (
   nombre varchar(50) not null,
   apellidos varchar(50) not null,
   edad numeric(3,0) not null,
-  genero identidad_genero default 'mujer'::identidad_genero not null,
+  genero varchar(50) not null,
   sexo sexo_biologico default 'femenino'::sexo_biologico not null
 );
 --
@@ -91,7 +91,7 @@ create TABLE paciente (
   nombre varchar(50) NOT NULL,
   apellidos varchar(50) NOT NULL,
   edad numeric(3,0) NOT null,
-  genero identidad_genero default 'mujer'::identidad_genero not null,
+  genero varchar (50) not null,
   sexo sexo_biologico default 'femenino'::sexo_biologico not null,
   tipo_sangre char(2) NOT NULL,
   ocupacion varchar(50) NOT NULL
