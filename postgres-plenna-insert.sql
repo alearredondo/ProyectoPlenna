@@ -88,12 +88,72 @@ insert into especialidad (nombre) values ('Ginecologa');
 insert into especialidad (nombre) values ('Sexologa');
 insert into especialidad (nombre) values ('Medico general');
 insert into especialidad (nombre) values ('Suenio');
+insert into especialidad (nombre) values ('Nutriologa');
 --
 --
 -- TABLA DOCTOR_ESPECIALIDAD
 --
 insert into doctor_especialidad values (1000000, 1);
-
+insert into doctor_especialidad values (1000001, 2);
+insert into doctor_especialidad values (1000002, 3);
+insert into doctor_especialidad values (1000003, 4);
+insert into doctor_especialidad values (1000004, 5);
+insert into doctor_especialidad values (1000005, 2);
+insert into doctor_especialidad values (1000006, 3);
+insert into doctor_especialidad values (1000007, 4);
+insert into doctor_especialidad values (1000008, 2);
+insert into doctor_especialidad values (1000009, 3);
+insert into doctor_especialidad values (1000010, 1);
+insert into doctor_especialidad values (1000011, 2);
+insert into doctor_especialidad values (1000012, 6);
+insert into doctor_especialidad values (1000013, 2);
+insert into doctor_especialidad values (1000014, 1);
+insert into doctor_especialidad values (1000015, 6);
+insert into doctor_especialidad values (1000016, 4);
+insert into doctor_especialidad values (1000017, 1);
+insert into doctor_especialidad values (1000018, 2);
+insert into doctor_especialidad values (1000019, 6);
+insert into doctor_especialidad values (1000020, 4);
+insert into doctor_especialidad values (1000021, 3);
+insert into doctor_especialidad values (1000022, 2);
+insert into doctor_especialidad values (1000023, 1);
+insert into doctor_especialidad values (1000024, 4);
+insert into doctor_especialidad values (1000025, 6);
+insert into doctor_especialidad values (1000026, 6);
+insert into doctor_especialidad values (1000027, 3);
+insert into doctor_especialidad values (1000028, 4);
+insert into doctor_especialidad values (1000029, 5);
+insert into doctor_especialidad values (1000030, 1);
+insert into doctor_especialidad values (1000031, 5);
+insert into doctor_especialidad values (1000032, 2);
+insert into doctor_especialidad values (1000033, 3);
+insert into doctor_especialidad values (1000034, 4);
+insert into doctor_especialidad values (1000035, 2);
+insert into doctor_especialidad values (1000036, 1);
+insert into doctor_especialidad values (1000037, 4);
+insert into doctor_especialidad values (1000038, 2);
+insert into doctor_especialidad values (1000040, 6);
+insert into doctor_especialidad values (1000041, 2);
+insert into doctor_especialidad values (1000042, 1);
+insert into doctor_especialidad values (1000043, 2);
+insert into doctor_especialidad values (1000044, 1);
+insert into doctor_especialidad values (1000045, 6);
+insert into doctor_especialidad values (1000046, 3);
+insert into doctor_especialidad values (1000047, 4);
+insert into doctor_especialidad values (1000048, 6);
+insert into doctor_especialidad values (1000049, 4);
+insert into doctor_especialidad values (1000050, 2);
+insert into doctor_especialidad values (1000051, 1);
+insert into doctor_especialidad values (1000052, 4);
+insert into doctor_especialidad values (1000053, 5);
+insert into doctor_especialidad values (1000054, 3);
+insert into doctor_especialidad values (1000055, 5);
+insert into doctor_especialidad values (1000056, 3);
+insert into doctor_especialidad values (1000057, 6);
+insert into doctor_especialidad values (1000058, 1);
+insert into doctor_especialidad values (1000059, 2);
+--
+--
 --
 -- TABLA PACIENTE
 -- 
@@ -346,6 +406,46 @@ insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicame
 (2000059,'diabetes', 'true', ' insulina');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
 (2000060,'anemia', 'false', ' ');
+--
+--
+-- TABLA TIPO_CONSULTA
+insert into tipo_consulta (nombre,id_especialidad) values ('Psicologica',1);
+insert into tipo_consulta (nombre,id_especialidad) values ('Ginecologica',2);
+insert into tipo_consulta (nombre,id_especialidad) values ('Sexologica',3);
+insert into tipo_consulta (nombre,id_especialidad) values ('General',4);
+insert into tipo_consulta (nombre,id_especialidad) values ('Suenio',5);
+insert into tipo_consulta (nombre,id_especialidad) values ('Nutriologia',6);
+--
+--
+-- TABLA CONSULTA
+--
+--
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000000, 2000000, '2022-04-25', '14:31', '15:17', 'Paciente con un desorden alimenticio');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(4, 1000003, 2000001, '2022-03-10', '11:07', '12:02', 'Paciente con hipertension arterial, toma diureticos, se le recomendó hacer ejercicio 30 minutos al día' );
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000010, 2000002, '2022-04-11', '09:01', '9:55', 'Paciente con ansiedad en un espectro bajo');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000001, 2000003, '2022-02-09', '15:35', '16:47', 'Paciente con sindrome de ovario poliquistico');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000005, 2000004, '2022-04-01', '12:56', '13:43', 'Paciente vino a una revision general, se le hizo un papanicolau');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(6, 1000025, 2000005, '2022-02-09', '13:24', '14:12', 'Paciente con anemia, conviene ser evaluada por una psicologa');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(6, 1000025, 2000006, '2022-05-20', '10:21', '10:54', 'Paciente con sobrepeso, se le asignó un plan alimenticio correspondiente');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000022, 2000007, '2022-03-11', '12:25', '13:50', 'Paciente para chequeo general y platica sobre metodos anticonceptivos');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(4, 1000034, 2000008, '2022-04-29', '18:05', '18:45', 'Paciente con gripa, se le recetaron los medicamentos necesarios');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(3, 1000002, 2000009, '2022-05-28', '11:01', '11:55', 'Paciente para informacion sobre disfuncion sexual');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(6, 1000025, 2000040, '2022-05-14', '09:54', '10:25', 'Paciente con diabetes, se le dio un plan alimenticio personalizado');
+
+
+
+
 
 
 
