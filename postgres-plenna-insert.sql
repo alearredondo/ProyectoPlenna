@@ -21,9 +21,9 @@ insert into asistente (nombre, apellidos) values ('Alexa', 'Sanchez Jimenez');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Carolina', 'Zambrano Lara', 31, 'mujer', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Karla', 'Sanchez Espinoza', 40, 'mujer', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Hilda', 'Torres Alvarado', 31, 'mujer', 'femenino');
-insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Antonia', 'Rodriguez Soto', 34, 'mujer transgenero', 'Femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Antonia', 'Rodriguez Soto', 34, 'mujer transgenero', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Maricela', 'Lopez Cortes', 32, 'mujer', 'femenino');
-insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Sonia', 'Cedeño Bautista', 38, 'mujer', 'Femenino');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Sonia', 'Cedeño Bautista', 38, 'mujer', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Anna', 'Zabala Estrada', 36, 'mujer', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Berenice', 'Jimenez Guerrero', 48, 'mujer', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Yadira', 'Garcia Santiago', 37, 'mujer', 'femenino');
@@ -33,7 +33,7 @@ insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Marisol', 'G
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Rosario', 'Vera Contreras', 51, 'mujer', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Reyna', 'Flores De la Cruz', 42, 'mujer', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Aurora', 'Espinoza Rojas', 39, 'mujer', 'femenino');
-insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Olivia', 'Castro Velazquez', 32, 'no binario', '');
+insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Olivia', 'Castro Velazquez', 32, 'no binario', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Raquel', 'Morales Guzman', 33, 'mujer', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Irene', 'Perez Vargas', 32, 'mujer transgenero', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Elvira', 'Bermudez Castro', 30, 'mujer', 'femenino');
@@ -79,6 +79,7 @@ insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Aida', 'Belt
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Lucero', 'Hernandez Leal', 32, 'hombre transgenero', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Ximena', 'Lopez Casas', 54, 'mujer', 'femenino');
 insert into doctor (nombre, apellidos, edad, genero, sexo) values ('Anahi', 'Gutierrez Jimemez', 42, 'mujer transgenero','femenino');
+--
 --
 --
 -- TABLA ESPECIALIDAD
