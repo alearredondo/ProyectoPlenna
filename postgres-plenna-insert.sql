@@ -179,17 +179,17 @@ insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupac
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Isabel', 'Morales Jimenez', 60, 'mujer', 'femenino', 'O+', 'Retirada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
-('Alicia', 'Rodriguez Velazquez', 40, 'mujer', 'femenino', 'AB+', 'Empleada');
+('Alicia', 'Rodriguez Velazquez', 40, 'mujer', 'femenino', 'A+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values 
 ('Margarita', 'Lopez Mendoza', 38, 'mujer', 'femenino', 'O+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Luz', 'Fuentes Del Campo', 26, 'mujer', 'femenino', 'O+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
-('Angelica', 'Hernandez Castillo', 29, 'mujer', 'femenino', 'AB+', 'Empleada');
+('Angelica', 'Hernandez Castillo', 29, 'mujer', 'femenino', 'A+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Claudia', 'Torres Jimenez', 37, 'mujer transgenero', 'femenino' ,'O-', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values 
-('Silvia', 'Araya Dominguez', 19, 'no binario', ' ', 'O+', 'Estudiante');
+('Silvia', 'Araya Dominguez', 19, 'no binario', 'femenino ', 'O+', 'Estudiante');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Norma', 'Flores Zavala', 41, 'mujer', 'femenino', 'B+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
@@ -201,11 +201,11 @@ insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupac
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Veronica', 'Tapia Flores', 18, 'mujer', 'femenino', 'B+', 'Estudiante');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
-('Teresa', 'Reyes Alvarez', 25, 'mujer', 'femenino', 'AB+', 'Empleada');
+('Teresa', 'Reyes Alvarez', 25, 'mujer', 'femenino', 'B+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Alejandra', 'Gutierrez Perez', 42, 'mujer', 'femenino', 'B+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
-('Alma', 'Castro Garcia', 37, 'mujer', 'femenino','AB-', 'Empleada');
+('Alma', 'Castro Garcia', 37, 'mujer', 'femenino','B-', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Beatriz', 'Pizarro Gomez', 22, 'mujer', 'femenino', 'O+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
@@ -239,7 +239,7 @@ insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupac
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Lilia', 'Riquelme Mustri', 34, 'mujer', 'femenino','A+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
-('Lorena', 'Garcia Balmori', 20, 'mujer', 'femenino', 'AB+', 'Empleada');
+('Lorena', 'Garcia Balmori', 20, 'mujer', 'femenino', 'B+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Magdalena', 'Miranda Sandoval', 41, 'mujer', 'femenino', 'O+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
@@ -265,7 +265,7 @@ insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupac
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Erika Sofia', 'Gallardo Galvan', 23, 'mujer', 'femenino', 'B+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
-('Monica', 'Ortiz Perez', 26, 'mujer', 'femenino', 'AB-', 'Empleada');
+('Monica', 'Ortiz Perez', 26, 'mujer', 'femenino', 'A-', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Laura', 'Garrido Pulido', 45, 'mujer', 'femenino', 'O+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
@@ -277,9 +277,10 @@ insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupac
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Carmen', 'Beltran Velazquez', 37, 'mujer', 'femenino', 'B+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
-('Alexandra', 'Garcia Guzman', 20, 'mujer', 'femenino', 'AB+', 'Estudiante');
+('Alexandra', 'Garcia Guzman', 20, 'mujer', 'femenino', 'B+', 'Estudiante');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Adriana', 'Muñoz Casas', 36, 'mujer', 'femenino', 'O+', 'Empleada');
+--
 --
 --
 --TABLA EXPEDIENTE
