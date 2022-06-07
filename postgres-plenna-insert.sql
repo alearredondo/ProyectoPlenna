@@ -1,4 +1,4 @@
--PLENNA SCRIPT inserts
+--PLENNA SCRIPT inserts
 --BASE DE DATOS SCRIPT 2 
 
 
