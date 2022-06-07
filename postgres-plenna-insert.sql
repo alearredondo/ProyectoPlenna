@@ -344,7 +344,7 @@ insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicame
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
 (2000027,'otro', 'false', ' ');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
-(2000028,'ninguna', 'false', 'vitaminas');
+(2000028,'ninguna', 'true', 'vitaminas');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
 (2000029,'ninguna', 'false', ' ');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
