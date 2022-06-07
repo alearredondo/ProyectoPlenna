@@ -1,4 +1,4 @@
---PLENNA SCRIPT inserts
+-PLENNA SCRIPT inserts
 --BASE DE DATOS SCRIPT 2 
 
 
@@ -579,16 +579,100 @@ insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emo
 --
 -- TABLA GINECOLOGIA
 insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
-(4, '1996-04-30', '2022-01-22', 18, 'diu');
+(4, 'de los 10 a los 14', '2022-01-22', 18, 'diu');
 insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
-(5, '2002-02-13', '2022-03-15', 17, 'condon');
+(5, 'de los 10 a los 14', '2022-03-15', 17, 'condon');
 insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
-(8, '1987-08-30', '2022-02-22', 16, 'condon');
+(8, 'de los 10 a los 14', '2022-02-22', 16, 'anticonceptivos orales combinados');
 insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
-(12, '1998-01-05', '2022-02-22', 15, 'diu');
+(12, 'despues de los 14', '2022-02-22', 15, 'diu');
 insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
-(21, '1998-01-05', '2022-02-12', 15, 'diu');
+(21, 'de los 10 a los 14', '2022-02-01', 18, 'parche');
 insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
-(4, '1996-04-30', '2022-01-22', 18, 'diu');
+(28, 'de los 10 a los 14', '2022-01-15', 20, 'condon');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(32, 'de los 10 a los 14', '2022-02-14', 19, 'inyeccion');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(35, 'antes de los 10', '2022-01-01', 18, 'anillo vaginal');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(42, 'de los 10 a los 14', '2021-12-18', 20, 'ciclo natural');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(51, 'de los 10 a los 14', '2021-11-28', 25, 'diu');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(55, 'despues de los 14', '2022-03-07', 17, 'condon');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(58, 'antes de los 14', '2022-04-01', 19, 'ninguno');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(61, 'despues de los 14', '2022-01-05', 18, 'anticonceptivos orales combinados');
+--
+--
+-- TABLA NUTRICION 
+--
+--
+insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
+(6, 45.40, 161.00, 1, 'false', 0, 'ninguno' );
+insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
+(7, 70.80, 155.40, 2, 'true', 2, 'caminar' );
+insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
+(11, 65.00, 165.80, 3, 'true', 2, 'actividades al aire libre' );
+insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
+(17, 80.00, 169.50, 1, 'true', 1, 'caminar' );
+insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
+(30, 62.00, 156.80, 2, 'true', 2, 'yoga' );
+insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
+(33, 73.80, 168.34, 1, 'true', 2, 'pesas' );
+insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
+(37, 50.60, 159.80, 1, 'true', 1, 'caminar' );
+insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
+(39, 67.40, 162.67, 3, 'true', 2, 'actividades al aire libre' );
+insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
+(46, 60.90, 171.30, 2, 'true', 1, 'bicicleta' );
+insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
+(49, 51.70, 156.40, 2, 'false', 0, 'ninguno' );
+--
+--
+-- TABLA SEXOLOGIA 
+--
+--
+insert into sexologia (id_expediente, dificultad_orgasmo, frecuencia_dificultad_orgasmo, comformidad_vida_sexual, seguridad_sexualidad) values 
+(10, 'true' ,'frecuentemente', 'false', 'false');
+insert into sexologia (id_expediente, dificultad_orgasmo, frecuencia_dificultad_orgasmo, comformidad_vida_sexual, seguridad_sexualidad) values 
+(15,'true', 'a veces', 'true', 'false');
+insert into sexologia (id_expediente, dificultad_orgasmo, frecuencia_dificultad_orgasmo, comformidad_vida_sexual, seguridad_sexualidad) values 
+(16,'false', 'pocas veces', 'true', 'false');
+insert into sexologia (id_expediente, dificultad_orgasmo, frecuencia_dificultad_orgasmo, comformidad_vida_sexual, seguridad_sexualidad) values 
+(19,'false', 'nunca', 'true', 'true');
+insert into sexologia (id_expediente, dificultad_orgasmo, frecuencia_dificultad_orgasmo, comformidad_vida_sexual, seguridad_sexualidad) values 
+(23,'true', 'a veces', 'false', 'false');
+insert into sexologia (id_expediente, dificultad_orgasmo, frecuencia_dificultad_orgasmo, comformidad_vida_sexual, seguridad_sexualidad) values 
+(31,'false', 'nunca', 'true', 'true');
+insert into sexologia (id_expediente, dificultad_orgasmo, frecuencia_dificultad_orgasmo, comformidad_vida_sexual, seguridad_sexualidad) values 
+(38,'false', 'pocas veces', 'true', 'false');
+insert into sexologia (id_expediente, dificultad_orgasmo, frecuencia_dificultad_orgasmo, comformidad_vida_sexual, seguridad_sexualidad) values 
+(47,'false', 'nunca', 'true', 'false');
+insert into sexologia (id_expediente, dificultad_orgasmo, frecuencia_dificultad_orgasmo, comformidad_vida_sexual, seguridad_sexualidad) values 
+(54,'true', 'a veces', 'true', 'true');
+--
+--
+-- TABLA SUEÑO
+--
+--
+insert into suenio (id_expediente, horas_suenio, ronca, dificultad_suenio, pesadillas) values
+(14, 4, 'true', 'siempre', 'false');
+insert into suenio (id_expediente, horas_suenio, ronca, dificultad_suenio, pesadillas) values
+(20, 6, 'false', 'siempre', 'true');
+insert into suenio (id_expediente, horas_suenio, ronca, dificultad_suenio, pesadillas) values
+(25, 7, 'true', 'a veces', 'false');
+insert into suenio (id_expediente, horas_suenio, ronca, dificultad_suenio, pesadillas) values
+(45, 5, 'false', 'siempre', 'true');
+insert into suenio (id_expediente, horas_suenio, ronca, dificultad_suenio, pesadillas) values
+(52, 6, 'true', 'frecuentemente', 'false');
+insert into suenio (id_expediente, horas_suenio, ronca, dificultad_suenio, pesadillas) values
+(60, 5, 'true', 'siempre', 'true');
+--
+--
+-- TABLA TRATAMIENTO 
+--
+--
 
 
