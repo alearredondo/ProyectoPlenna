@@ -360,7 +360,7 @@ insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicame
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
 (2000035,'anemia', 'false', ' ');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
-(2000036,'anemia', 'true', 'verdadero');
+(2000036,'anemia', 'true', 'hierro');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
 (2000037,'otro', 'false', ' ');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
@@ -465,11 +465,130 @@ insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inic
 (5, 1000055, 2000019, '2022-05-11', '16:03', '16:49', 'Paciente con dificultad para descansar');
 insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
 (2, 1000050, 2000020, '2022-03-08', '10:00', '11:25', 'Paciente con diabetes para chequeo general de hormonas');
-
-
-
-
-
-
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000010, 2000021, '2022-01-25', '12:01', '13:15', 'Paciente con interes sobre su infancia');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(3, 1000033, 2000022, '2022-05-02', '16:36', '17:28', 'Paciente con dudas sobre su sexualidad y la de su pareja');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(4, 1000033, 2000023, '2022-03-22', '15:10', '15:55', 'Paciente con hipertension, se le hizo un chequeo, se recomienda ir con una nutriologa');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(5, 1000053, 2000024, '2022-04-16', '16:22', '17:39', 'Paciente con problemas para levantarse por las mananas');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000058, 2000025, '2022-02-22', '09:25', '10:43', 'Paciente con problemas de autoestima');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(4, 1000010, 2000026, '2022-01-30', '14:03', '14:50', 'Paciente con infeccion de garganta');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000001, 2000027, '2022-02-14', '17:21', '18:30', 'Paciente para la toma de papanicolau');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000014, 2000028, '2022-03-21', '17:01', '17:55', 'Paciente para evaluacion psicologica');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(6, 1000019, 2000029, '2022-02-24', '18:01', '18:43', 'Paciente con sobre peso');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(3, 1000046, 2000030, '2022-03-15', '10:54', '11:44', 'Paciente con interes sobre el orgasmo');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000022, 2000031, '2022-03-21', '10:21', '11:23', 'Paciente para chequeo general');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(6, 1000045, 2000032, '2022-03-10', '18:11', '18:52', 'Paciente con hipotiroidismo para chequeo general, conviene verlo con la psicologa');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000044, 2000033, '2022-05-01', '16:24', '17:35', 'Paciente con depresion y ansiedad');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000050, 2000034, '2022-03-14', '13:01', '13:56', 'Paciente con cambios hormonakes');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(4, 1000052, 2000035, '2022-04-21', '10:22', '11:18', 'Paciente con anemia, se le recomendaron vitaminas e ir con la nutriologa');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(6, 1000045, 2000036, '2022-05-27', '11:01', '11:43', 'Paciente con anemia, se le dio una dieta especifica');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(3, 1000027, 2000037, '2022-04-30', '10:04', '10:56', 'Paciente con dudas sobre su sexualidad');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(6, 1000045, 2000038, '2022-03-29', '12:27', '13:15', 'Paciente con hipotiroidismo, se intentara mejorar la alimentacion');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(4, 1000020, 2000039, '2022-02-17', '14:02', '14:54', 'Paciente con dolor en la cadera');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000042, 2000040, '2022-03_03', '13:25', '14:31', 'Paciente con ansiedad');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000043, 2000041, '2022-01-05', '11:03', '12:34', 'Paciente con diabetes y problemas hormonales');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000044, 2000042, '2022-02-27', '12:01', '13:15', 'Paciente con un transtorno alimenticio');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(4, 1000047, 2000043, '2022-01-14', '15:14', '16:21', 'Paciente con dolor de espelda');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(5, 1000004, 2000044, '2022-02-28', '12:01', '13:15', 'Paciente con insomnio');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(6, 1000015, 2000045, '2022-01-26', '14:05', '15:10', 'Paciente con hipertension se le da un plan alimenticio correspondiente');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(3, 1000021, 2000046, '2022-03-02', '10:34', '11:15', 'Paciente con dudas sobre metodos antuconceptivos, conviene que la revise una ginecologa');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(4, 1000007, 2000047, '2022-03-21', '13:01', '13:52', 'Paciente con infeccion en una herida en el brazo');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(6, 1000015, 2000048, '2022-03-17', '12:01', '13:15', 'Paciente con anemia y peso menos de lo que deberia');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000023, 2000049, '2022-03-25', '11:45', '12:29', 'Paciente con estres y ansiedad por quimioterapia');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000013, 2000050, '2022-03-30', '16:25', '17:05', 'Paciente con sindrome de ovario poliquistico');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(5, 1000053, 2000051, '2022-02-22', '14:22', '15:20', 'Paciente con dificultad para dormir y depertar');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000051, 2000052, '2022-01-24', '15:14', '16:20', 'Paciente con un transtorno alimenticio');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(3, 1000021, 2000053, '2022-04-06', '14:26', '15:14', 'Paciente con dudas sobre la sexualidad');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000050, 2000054, '2022-04-30', '11:12', '12:40', 'Paciente con signos de cancer de mama');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(4, 1000047, 2000055, '2022-03-18', '18:21', '19:27', 'Paciente con una infeccion en el ojo');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000030, 2000056, '2022-05-22', '14:25', '15:27', 'Paciente con ansiedad');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000011, 2000057, '2022-05-20', '11:34', '12:54', 'Paciente con molestias');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(4, 1000016, 2000058, '2022-05-22', '11:21', '12:20', 'Paciente con fiebre y dolor de estomago');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(5, 1000031, 2000059, '2022-04-21', '13:22', '14:37', 'Paciente con alucinaciones nocturnas');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000022, 2000060, '2022-03-15', '11:03', '11:55', 'Paciente con perdida de periodo menstrual por anemia');
+--
+--
+-- TABLA PSICOLOGIA
+--
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(1,'Preocupaciones sobre el bienestar de su familia, sobre la escuela', 'mas de dos semanas', 'siempre', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(3,'Preocupaciones sobre la escuela y sobre su relacion amorosa', 'mas de dos semanas', 'siempre', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(13,'Preocupaciones sobre su propio bienestar, quiere trabajar en ser una mejor persona', 'mas de dos semanas', 'a veces', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(18,'Preocupaciones sobre el futuro y su suficiencia como profesionista', 'mas de dos semanas', 'siempre', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(22,'Preocupaciones sobre entenderse mejor a si mismo', 'mas de dos semanas', 'siempre', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(26,'Preocupaciones sobre su propio bienestar, quiere tener mas confianza en si misma', 'mas de dos semanas', 'siempre', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(29,'Sin preocupaciones graves', 'mas de dos semanas', 'siempre', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(34,'Preocupaciones sobre el futuro, sobre su exito y sobre la muerte reciente de un familiar', 'mas de dos semanas', 'siempre', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(41,'Preocupaciones sobre su mama enferma y su familia', 'mas de dos semanas', 'siempre', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(43,'Preocupaciones sobre su apariencia', 'mas de dos semanas', 'siempre', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(50,'Preocupaciones sobre su escuela y sobre sus compañeros', 'mas de dos semanas', 'siempre', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(53,'Preocupaciones sobre su apariencia con baja autoestima', 'mas de dos semanas', 'siempre', 'true');
+insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
+(57,'Preocupaciones sobre la escuela y su futuro', 'mas de dos semanas', 'siempre', 'true');
+--
+--
+-- TABLA GINECOLOGIA
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(4, '1996-04-30', '2022-01-22', 18, 'diu');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(5, '2002-02-13', '2022-03-15', 17, 'condon');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(8, '1987-08-30', '2022-02-22', 16, 'condon');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(12, '1998-01-05', '2022-02-22', 15, 'diu');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(21, '1998-01-05', '2022-02-12', 15, 'diu');
+insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
+(4, '1996-04-30', '2022-01-22', 18, 'diu');
 
 
