@@ -444,9 +444,27 @@ insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inic
 insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
 (3, 1000002, 2000009, '2022-05-28', '11:01', '11:55', 'Paciente para informacion sobre disfuncion sexual');
 insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
-(6, 1000025, 2000040, '2022-05-14', '09:54', '10:25', 'Paciente con diabetes, se le dio un plan alimenticio personalizado');
-
-
+(6, 1000025, 2000010, '2022-05-14', '09:54', '10:25', 'Paciente con diabetes, se le dio un plan alimenticio personalizado');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000050, 2000011, '2022-03-08', '10:00', '11:25', 'Paciente con diabetes para chequeo general de hormonas, se mandaron estudios');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000036, 2000012, '2022-02-24', '12:47', '13:15', 'Paciente para terapia');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(5, 1000029, 2000013, '2022-04-30', '15:16', '15:59', 'Paciente con problemas de insomnio');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(3, 1000027, 2000014, '2022-05-21', '17:23', '18:25', 'Paciente con problemas para el orgasmo');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(3, 1000056, 2000015, '2022-01-30', '14:56', '15:59', 'Paciente para informacion sobre explorar aspectos de la sexualidad');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(6, 1000024, 2000016, '2022-02-21', '13:12', '13:40', 'Paciente con diabetes para una dieta balanceada');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(1, 1000036, 2000017, '2022-01-08', '08:00', '09:25', 'Paciente con depresion de bajo espectro');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(3, 1000033, 2000018, '2022-04-28', '11:27', '12:16', 'Paciente para informacion sobre metodos anticonceptivos');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(5, 1000055, 2000019, '2022-05-11', '16:03', '16:49', 'Paciente con dificultad para descansar');
+insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
+(2, 1000050, 2000020, '2022-03-08', '10:00', '11:25', 'Paciente con diabetes para chequeo general de hormonas');
 
 
 
