@@ -153,6 +153,7 @@ insert into doctor_especialidad values (1000056, 3);
 insert into doctor_especialidad values (1000057, 6);
 insert into doctor_especialidad values (1000058, 1);
 insert into doctor_especialidad values (1000059, 2);
+insert into doctor_especialidad values (1000060, 6);
 --
 --
 --
@@ -189,7 +190,7 @@ insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupac
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Claudia', 'Torres Jimenez', 37, 'mujer transgenero', 'femenino' ,'O-', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values 
-('Silvia', 'Araya Dominguez', 19, 'no binario', 'femenino ', 'O+', 'Estudiante');
+('Silvia', 'Araya Dominguez', 19, 'no binario', 'femenino', 'O+', 'Estudiante');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Norma', 'Flores Zavala', 41, 'mujer', 'femenino', 'B+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
@@ -225,7 +226,7 @@ insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupac
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Carmen', 'Cortes Hernandez', 60, 'mujer', 'femenino','O+', 'Retirada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
-('Luisa', 'Herrera Mancera', 20, 'hombre transgenero', 'femenino' ,'AB-', 'Estudiante');
+('Luisa', 'Herrera Mancera', 20, 'hombre transgenero', 'femenino' ,'B-', 'Estudiante');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Rocio', 'Nuñez Juarez', 31, 'mujer', 'femenino','O+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
@@ -271,7 +272,7 @@ insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupac
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Diana', 'Salazar Rodriguez', 36, 'mujer transgenero', 'femenino', 'B+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
-('Eugenia', 'Guzman Balderas', 30, 'no binario', ' ', 'O+', 'Empleada');
+('Eugenia', 'Guzman Balderas', 30, 'no binario', 'femenino', 'O+', 'Empleada');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
 ('Cecilia', 'Saavedra Iglesias', 22, 'mujer', 'femenino', 'A+', 'Estudiante');
 insert into paciente (nombre, apellidos, edad, genero, sexo, tipo_sangre, ocupacion) values
