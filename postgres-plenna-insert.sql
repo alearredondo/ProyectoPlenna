@@ -504,7 +504,7 @@ insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inic
 insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
 (4, 1000020, 2000039, '2022-02-17', '14:02', '14:54', 'Paciente con dolor en la cadera');
 insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
-(1, 1000042, 2000040, '2022-03_03', '13:25', '14:31', 'Paciente con ansiedad');
+(1, 1000042, 2000040, '2022-03-03', '13:25', '14:31', 'Paciente con ansiedad');
 insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
 (2, 1000043, 2000041, '2022-01-05', '11:03', '12:34', 'Paciente con diabetes y problemas hormonales');
 insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inicio, hora_fin, notas_doctor) values
@@ -550,31 +550,31 @@ insert into consulta (id_tipo_consulta, id_doctor, id_paciente, fecha, hora_inic
 -- TABLA PSICOLOGIA
 --
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(1,'Preocupaciones sobre el bienestar de su familia, sobre la escuela', 'mas de dos semanas', 'siempre', 'true');
+(1,'Preocupaciones sobre el bienestar de su familia, sobre la escuela', 'mas de 2 semanas', 'siempre', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(3,'Preocupaciones sobre la escuela y sobre su relacion amorosa', 'mas de dos semanas', 'siempre', 'true');
+(3,'Preocupaciones sobre la escuela y sobre su relacion amorosa', 'mas de 2 semanas', 'siempre', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(13,'Preocupaciones sobre su propio bienestar, quiere trabajar en ser una mejor persona', 'mas de dos semanas', 'a veces', 'true');
+(13,'Preocupaciones sobre su propio bienestar, quiere trabajar en ser una mejor persona', 'mas de 2 semanas', 'a veces', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(18,'Preocupaciones sobre el futuro y su suficiencia como profesionista', 'mas de dos semanas', 'siempre', 'true');
+(18,'Preocupaciones sobre el futuro y su suficiencia como profesionista', 'mas de 2 semanas', 'siempre', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(22,'Preocupaciones sobre entenderse mejor a si mismo', 'mas de dos semanas', 'siempre', 'true');
+(22,'Preocupaciones sobre entenderse mejor a si mismo', 'mas de 2 semanas', 'siempre', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(26,'Preocupaciones sobre su propio bienestar, quiere tener mas confianza en si misma', 'mas de dos semanas', 'siempre', 'true');
+(26,'Preocupaciones sobre su propio bienestar, quiere tener mas confianza en si misma', 'mas de 2 semanas', 'siempre', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(29,'Sin preocupaciones graves', 'mas de dos semanas', 'siempre', 'true');
+(29,'Sin preocupaciones graves', 'mas de 2 semanas', 'siempre', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(34,'Preocupaciones sobre el futuro, sobre su exito y sobre la muerte reciente de un familiar', 'mas de dos semanas', 'siempre', 'true');
+(34,'Preocupaciones sobre el futuro, sobre su exito y sobre la muerte reciente de un familiar', 'mas de 2 semanas', 'siempre', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(41,'Preocupaciones sobre su mama enferma y su familia', 'mas de dos semanas', 'siempre', 'true');
+(41,'Preocupaciones sobre su mama enferma y su familia', 'mas de 2 semanas', 'siempre', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(43,'Preocupaciones sobre su apariencia', 'mas de dos semanas', 'siempre', 'true');
+(43,'Preocupaciones sobre su apariencia', 'mas de 2 semanas', 'siempre', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(50,'Preocupaciones sobre su escuela y sobre sus compañeros', 'mas de dos semanas', 'siempre', 'true');
+(50,'Preocupaciones sobre su escuela y sobre sus compañeros', 'mas de 2 semanas', 'siempre', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(53,'Preocupaciones sobre su apariencia con baja autoestima', 'mas de dos semanas', 'siempre', 'true');
+(53,'Preocupaciones sobre su apariencia con baja autoestima', 'mas de 2 semanas', 'siempre', 'true');
 insert into psicologia (id_expediente, preocupaciones, desde_cuando, agotado_emocionalmente, vida_afectada) values
-(57,'Preocupaciones sobre la escuela y su futuro', 'mas de dos semanas', 'siempre', 'true');
+(57,'Preocupaciones sobre la escuela y su futuro', 'mas de 2 semanas', 'siempre', 'true');
 --
 --
 -- TABLA GINECOLOGIA
@@ -601,7 +601,7 @@ insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion
 insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
 (55, 'despues de los 14', '2022-03-07', 17, 'condon');
 insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
-(58, 'antes de los 14', '2022-04-01', 19, 'ninguno');
+(58, 'antes de los 10', '2022-04-01', 19, 'ninguno');
 insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion, inicio_vida_sexual, metodo_anticonceptivo) values
 (61, 'despues de los 14', '2022-01-05', 18, 'anticonceptivos orales combinados');
 --
@@ -610,25 +610,25 @@ insert into ginecologia (id_expediente, primer_menstruacion, ultima_menstruacion
 --
 --
 insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
-(6, 45.40, 161.00, 1, 'false', 0, 'ninguno' );
+(6, 40.00, 1.60, 1.5, 'false', 0, 'ninguno' );
 insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
-(7, 70.80, 155.40, 2, 'true', 2, 'caminar' );
+(7, 70.00, 1.50, 2, 'true', 2, 'caminar' );
 insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
-(11, 65.00, 165.80, 3, 'true', 2, 'actividades al aire libre' );
+(11, 65.00, 1.65, 3, 'true', 2, 'actividades al aire libre' );
 insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
-(17, 80.00, 169.50, 1, 'true', 1, 'caminar' );
+(17, 80.00, 1.69, 1, 'true', 1, 'caminar' );
 insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
-(30, 62.00, 156.80, 2, 'true', 2, 'yoga' );
+(30, 62.00, 1.56, 2, 'true', 2, 'yoga' );
 insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
-(33, 73.80, 168.34, 1, 'true', 2, 'pesas' );
+(33, 73.80, 1.68, 1, 'true', 2, 'pesas' );
 insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
-(37, 50.60, 159.80, 1, 'true', 1, 'caminar' );
+(37, 50.60, 1.59, 1, 'true', 1, 'caminar' );
 insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
-(39, 67.40, 162.67, 3, 'true', 2, 'actividades al aire libre' );
+(39, 67.40, 1.62, 3, 'true', 2, 'actividades al aire libre' );
 insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
-(46, 60.90, 171.30, 2, 'true', 1, 'bicicleta' );
+(46, 60.90, 1.71, 2, 'true', 1, 'bicicleta' );
 insert into nutricion (id_expediente, peso, estatura, litros_agua_diaria, hace_ejercicio, dias_ejercicio, tipo_ejercicio) values
-(49, 51.70, 156.40, 2, 'false', 0, 'ninguno' );
+(49, 51.70, 1.56, 2, 'false', 0, 'ninguno' );
 --
 --
 -- TABLA SEXOLOGIA 
@@ -669,10 +669,10 @@ insert into suenio (id_expediente, horas_suenio, ronca, dificultad_suenio, pesad
 (52, 6, 'true', 'frecuentemente', 'false');
 insert into suenio (id_expediente, horas_suenio, ronca, dificultad_suenio, pesadillas) values
 (60, 5, 'true', 'siempre', 'true');
---
---
--- TABLA TRATAMIENTO 
---
---
+
+
+
+
+
 
 
