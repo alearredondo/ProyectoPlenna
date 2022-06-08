@@ -368,7 +368,7 @@ insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicame
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
 (2000039,'ninguna', 'false', ' ');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
-(2000040,'otra', 'false', ' ');
+(2000040,'otro', 'false', ' ');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
 (2000041,'diabetes', 'true', ' insulina');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
@@ -376,7 +376,7 @@ insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicame
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
 (2000043,'ninguna', 'false', ' ');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
-(2000044,'otra', 'false', ' ');
+(2000044,'otro', 'false', ' ');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
 (2000045,'hipertension', 'false', 'diureticos');
 insert into expediente (id_paciente, que_enfermedad, toma_medicamentos, medicamentos) values 
